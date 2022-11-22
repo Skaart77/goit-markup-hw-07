@@ -1,0 +1,43 @@
+.footer { 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $SecondaryBCGcolor;
+    font-size: 14px;
+    line-height: 1.71;
+
+&-contact{
+    margin-bottom: 9px;
+    
+    }
+
+    }
+
+.footer-nav{ display:flex;
+        align-items:baseline;}
+ 
+ 
+        .footer-contact__link{
+      font-size: 14px;
+      line-height:1.7;
+      letter-spacing: 0.03em;
+      font-style: normal;
+      color: rgba(255, 255, 255, 0.6);
+      
+      
+      transition: color $Cubic ; 
+
+
+      &:hover ,  &:focus { color:$AccentColor;}
+      
+    }
+
+.footer-contact__location { 
+        color: $PrimaryWhitecolor;
+        font-style: normal;
+        transition: color $Cubic ; 
+
+        &:hover , &:focus { color:$AccentColor;}
+      }
+      
+      
+     

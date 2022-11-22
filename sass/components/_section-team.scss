@@ -1,0 +1,76 @@
+.section-team{ 
+    background-color: $ThirdBCGcolor;
+    padding-bottom: 94px;
+    padding-top: 94px;
+
+    &__title { 
+        margin-top: 0;
+        margin-bottom: 50px;
+        
+        color:$PrimaryTextcolor; 
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;}
+  }
+
+.team{
+display: flex;
+
+& .team-user+ .team-user{
+    margin-left: 30px;
+  }
+}
+
+.team li { background-color: $PrimaryWhitecolor;}
+
+.team-user{ 
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+&__items{ padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.team-user__name{ 
+    margin-bottom: 10px;
+    color: $PrimaryTextcolor;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;}
+    
+    
+.team-user__position{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;}
+
+// Social Networks
+
+ .social-list{
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 30px; 
+      }
+      
+.social-list__link{ 
+        display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        color: $Clientscolor;
+      
+        transition: color $Cubic , background-color $Cubic; 
+      
+        &:focus , &:hover{border-radius: 50%; background-color:$AccentColor; color: $PrimaryWhitecolor;}
+    }
+      
+.social-list__icon{ fill:currentColor;}
+      
+      
