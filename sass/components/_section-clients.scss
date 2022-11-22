@@ -1,3 +1,8 @@
+
+.section-clients{
+  @extend %section;
+}
+
 .clients-section__title
 
 {
@@ -24,8 +29,8 @@
     align-items: center;
     justify-content: center; 
     
-    color: var(--clients-color);
-    border: 1px solid ;
+    color: $Clientscolor;
+    border: 1px solid $Clientscolor;
     border-radius: 4px;
     
     width: 170px;

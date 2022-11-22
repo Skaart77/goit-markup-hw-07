@@ -1,7 +1,6 @@
 .section-team{ 
     background-color: $ThirdBCGcolor;
-    padding-bottom: 94px;
-    padding-top: 94px;
+    @extend %section;
 
     &__title { 
         margin-top: 0;
@@ -28,8 +27,8 @@ display: flex;
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 
-&__items{ padding-top: 30px;
-    padding-bottom: 30px;
+&__items{ margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -54,7 +53,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
         display:flex;
         justify-content: center;
         gap: 10px;
-        margin-bottom: 30px; 
+        padding-bottom: 30px; 
       }
       
 .social-list__link{ 

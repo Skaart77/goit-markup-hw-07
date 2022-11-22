@@ -1,4 +1,4 @@
-.feature{ padding-top: 94px;}
+.section-feature{ @extend %section;}
 
 .feature__list{
   display: flex;
